@@ -14,22 +14,61 @@ body {
   background-color: #F2F2F7;
 }
 
+
 nav {
+  display: inline-block;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding-bottom: 10px;
   position: fixed;
   width: 375px;
   background-color: #A0D2FF;
+  border-bottom: .35px;
+  border-bottom-color: #878587;
+  border-bottom-style: solid;
+}
+
+.status {
+  display: block;
+  margin-bottom: 10px;
+  width: 375px;
+  height: 20px;
+  background-image: url('../images/ios_statusbar2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .arrow-left {
   float: left;
+  padding: 0 16px 0 16px;
+  margin-left: 16px;
+  background-image: url('../images/back_arrow_blk.svg');
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-/* NOTE: This is everything below the nav bar */
+h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 275px;
+  text-align: center;
+  }
+
+.info {
+  background-image: url('../images/noun_info1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  float: right;
+}
+/* NOTE: This is start of .group bellow nav bar */
 
 .group {
-  padding-top: 45px;
+  padding-top: 60px;
   background-color: #F0F0F0;
 }
 
@@ -39,7 +78,7 @@ nav {
 
 }
 
-/* NOTE: This is the XBound  */
+/* NOTE: This is the Section header XX-Bound  */
 .route {
   text-transform: uppercase;
   padding: 5px 10px;
@@ -55,18 +94,18 @@ h2 {
   font-weight: 400;
   }
 
-/* NOTE: This is the Line and Destination */
+/* NOTE: This is the Line# and Destination */
 
 .content {
   display: inline-block;
   margin: 0 auto;
   padding: 15px 10px;
   font-size: 2em;
-  /* NOTE: font-size:Xem then every element in content will base the em off of this value */
+  /* NOTE: font-size:Xem then every element contained in parent .content will base the 'em' off of this value */
 }
 
 
-/* NOTE: This is the start of the Bus Route Group styles */
+/* NOTE: Bus Route styles */
 
 h3 {
   text-align: left;
@@ -104,8 +143,9 @@ h3 {
 .os3 h3 {
   color:#FF9500;
 }
+
 h4 {
-  font-size: .75em; /* NOTE: size of the to X location and time */
+  font-size: .75em;
   font-weight: 300;
 }
 
@@ -118,8 +158,6 @@ h4 {
   height: 20px;
   float: right;
   margin: auto auto;
-  /* NOTE:  border: 1px;
-  border-style: solid; */
   background-image: url('../images/noun_signal.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -151,9 +189,8 @@ h4 {
   border-left-style: solid;
   border-color: grey;
   float: right;
-  /* NOTE:  color: #E0E0E0; */
-  font-size: 1em; /* NOTE: 15px */
-}
+  font-size: 1em; /* NOTE: 10px */
+  }
 
 .up1 {
   font-size: 3.5em;
@@ -162,11 +199,11 @@ h4 {
 
 .time2 {
   padding-top: 10px;
-  font-size: 1.5em; /* NOTE: 15px; 1*.upcome font-size upcome time stamp */
+  font-size: 1.5em;
 }
 
 .mins {
-  font-size: .4em; /* NOTE: upcome val=6x, .next val=8px */
+  font-size: .4em;
   font-weight:300;
 }
 
