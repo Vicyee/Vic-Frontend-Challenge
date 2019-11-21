@@ -17,22 +17,25 @@ body {
 
 nav {
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   padding-bottom: 10px;
   position: fixed;
   width: 375px;
-  background-color: #A0D2FF;
-  border-bottom: .35px;
+  background-color: #FFF6DF;
+  border-bottom: .25px;
   border-bottom-color: #878587;
   border-bottom-style: solid;
+  box-shadow: 0 .5px 0 0 #878587;
+  z-index: 1;
 }
+
 
 .status {
   display: block;
   margin-bottom: 10px;
   width: 375px;
   height: 20px;
-  background-image: url('../images/ios_statusbar2.svg');
+  background-image: url('../images/ios_statusbaryel.svg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -57,6 +60,7 @@ h1 {
   }
 
 .info {
+  display: inline-block;
   background-image: url('../images/noun_info1.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -67,8 +71,20 @@ h1 {
 }
 /* NOTE: This is start of .group bellow nav bar */
 
+.map {
+  display:block;
+  padding-top: 60.5px;
+  border-bottom: .1px;
+  border-style: solid;
+  border-color: #878587;
+  box-shadow: 0 .5px 4px 0 #878587;
+  position: fixed;
+
+}
+
 .group {
-  padding-top: 60px;
+  padding-top: 321px;
+  padding-bottom: 20px;
   background-color: #F0F0F0;
 }
 
@@ -86,7 +102,6 @@ h1 {
   border-bottom: .5px;
   border-style: solid;
   border-color: #878587;
-
 }
 
 h2 {
