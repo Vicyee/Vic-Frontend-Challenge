@@ -21,7 +21,7 @@ nav {
   padding-bottom: 10px;
   position: fixed;
   width: 375px;
-  background-color: #FFF6DF;
+  background-color: #DBE9F5;
   border-bottom: .25px;
   border-bottom-color: #878587;
   border-bottom-style: solid;
@@ -35,7 +35,7 @@ nav {
   margin-bottom: 10px;
   width: 375px;
   height: 20px;
-  background-image: url('../images/ios_statusbaryel.svg');
+  background-image: url('../images/ios_statusbarblue.svg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -79,7 +79,6 @@ h1 {
   border-color: #878587;
   box-shadow: 0 .5px 4px 0 #878587;
   position: fixed;
-
 }
 
 .group {
@@ -132,31 +131,31 @@ h3 {
 
 /* NOTE: specific route color styling */
 .nth1 h3 {
-  color: #1AA4DF;
+  color: #0055A4;
 }
 
 .sb1 h3 {
-  color: #FF9500;
+  color: #005740;
 }
 
 .sb2 h3 {
-  color: #FF9500;
+  color: #005740;
 }
 
 .rr1 h3 {
-  color: #7000FF;
+  color: #6A00F5;
 }
 
 .os1 h3 {
-  color:#1AA4DF;
+  color:#0055A4;
 }
 
 .os2 h3 {
-  color:#FF9500;
+  color:#005740;
 }
 
 .os3 h3 {
-  color:#FF9500;
+  color:#005740;
 }
 
 h4 {
